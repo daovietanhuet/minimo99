@@ -1,0 +1,247 @@
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(../FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: Inconsolata;
+  src: url(../FONTS/Inconsolata/Inconsolata-Regular.ttf);
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(../FONTS/Ubuntu/Ubuntu-Light.ttf);
+}
+html{
+  overflow-x: hidden;
+  margin: 0;
+  font-size:1pt;
+}
+body{
+  width: 100vw;
+  height: 418.916vw;
+}
+.newsletter, .footer{
+  background: #f0f0f0;
+}
+.wrapper{
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  background-color: #ffffff;
+}
+.header{ padding: 5.833% 5.833% 0% 5.833%;}
+.header a{text-decoration: none;}
+.logo{
+  float: left;
+  font-size: 30pt;
+  font-family: Inconsolata;
+  color: #000000;
+}
+.main_menu{float: right; width: 71.912%}
+.main_menu li{
+  padding: 1.05% 0% 0% 13.905%;
+  float: left;
+}
+.main_menu li a{
+  text-decoration: none;
+  font-size: 14pt;
+  font-family: PlayfairDisplay;
+  color: #626262;
+  float: right;
+}
+.content{width:100%;}
+.first_image{
+  width: 88.333%;
+  margin: 4.666% 5.833% 8.333% 5.833%;
+}
+.first_post{
+  text-decoration: none;
+  margin: 0% 12.5% 0% 12.5%;
+}
+.first_tag{
+  font-size: 14rem;
+  font-family: Ubuntu;
+  color: #b4ad9e;
+  margin: 0% 0% 3.333% 0%;
+}
+.first_title{
+  font-size: 30rem;
+  font-family: PlayfairDisplay;
+  color: #626262;
+  margin: 0% 0% 4.444% 0%;
+}
+.first_paragraph{
+  font-size: 14rem;
+  font-family: PlayfairDisplay;
+  color: #626262;
+  margin: 0% 0% 4.166% 0%;
+}
+.comment{
+  font-size: 14rem;
+  font-family: Ubuntu;
+  color: #b4ad9e;
+  margin: 0% 0% 11.25% 0%;
+}
+.row_post{margin: 0% 5.83% 7.083% 5.83%;overflow: hidden;}
+.post_left{
+  width: 39.622%;
+  display: inline-block;
+  margin: 0% 2.075% 0% 7.736%;
+  float: left;
+  text-decoration: none;
+}
+.post_right{
+  width: 39.622%;
+  display: inline-block;
+  margin: 0% 7.736% 0% 2.075%;
+  float: right;
+  text-decoration: none;
+}
+.img{
+  width: 100%;
+  margin-bottom: 7.143%;
+}
+.tag{
+  font-size: 14rem;
+  font-family: Ubuntu;
+  color: #b4ad9e;
+  margin: 0% 0% 7.143% 0%;
+}
+.title{
+  font-size: 30rem;
+  font-family: PlayfairDisplay;
+  color: #626262;
+  margin: 0% 0% 9.524% 0%;
+}
+.paragraph{
+  font-size: 14rem;
+  font-family: PlayfairDisplay;
+  color: #626262;
+  margin: 0% 0% 11.905% 0%;
+}
+.newsletter{
+  width: 100%;
+  height: 23.75vw;
+  margin-bottom: 8.333%;
+  overflow: hidden;
+}
+.newsletter h1{
+  font-size: 30rem;
+  text-align: center;
+  margin-top: 6.666%;
+  margin-bottom: 6.25%;
+}
+.email{
+  width: 367px;
+  font-family: PlayfairDisplay;
+  font-size: 14rem;
+  text-align: left;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f0f0;
+  border: 0;
+}
+.load_more{
+  font-family: PlayfairDisplay;
+  font-size: 20rem;
+  width: 13.667%;
+  height: 5vw;
+  background-color: white;
+  border: 1px solid #626262;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer{
+  font-family: PlayfairDisplay;
+  font-size: 14em;
+  width: 100%;
+  height: 8.333vw;
+}
+.footer_div{
+  display: inline-block;
+  margin-top: 3.333%;
+  margin-left: 1.333%;
+  text-decoration: none;
+  color: #000000;
+}
+.footer img{
+  width:20px;
+  height:20px;
+  float:right;
+  margin-top:3.333%;
+  margin-left: 1.333%
+}
+#wrapper_2{
+  margin-left:12.5%;
+  margin-top:auto;
+  margin-bottom:auto;
+  margin-right: 5.833%
+}
+/* Laptop Device :1400 */
+@media (min-width: 1400px) and (max-width: 2300px){
+}
+/* Laptop Device :1200 */
+@media (min-width: 1200px) and (max-width: 1400px){
+}
+
+/* Normal desktop :992px */
+@media (min-width: 851px) and (max-width: 1199px) {
+  .load_more{
+    height: auto;
+  }
+}
+/* Tablet desktop :768px and moblie screen*/
+@media (max-width: 850px) {
+  .logo{
+    float:none;
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  .main_menu{float: none;width: 100%; margin-top: 5%;}
+  .main_menu li{
+    width: 100%;
+    float: none;
+    padding: 0;
+    margin-top: 2%;
+  }
+  .main_menu li a{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+  }
+  .post_right{
+    display: block;
+    float: none;
+    width: 90%;
+    margin: 0 auto 0 auto;
+  }
+  .post_left{
+    display: block;
+    float: none;
+    width: 90%;
+    margin: 0 auto 0 auto;
+  }
+  .load_more{
+    width: 100%;
+    height: auto;
+  }
+  .newsletter{
+    height: auto;
+  }
+  .footer img{
+    width: 14rem;
+    height: 14rem;
+  }
+  #wrapper_2{
+    margin-left: 0%;
+  }
+}
+@media (max-width: 500px) {
+  html{
+    font-size: 0.7pt;
+  }
+}

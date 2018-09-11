@@ -1,0 +1,219 @@
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(../FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: Inconsolata;
+  src: url(../FONTS/Inconsolata/Inconsolata-Regular.ttf);
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(../FONTS/Ubuntu/Ubuntu-Light.ttf);
+}
+html{
+  overflow-x: hidden;
+  margin: 0;
+  font-size:1pt;
+}
+body{
+  width: 100vw;
+  height: 418.916vw;
+}
+.another_post{
+  background-color: #f0f0f0;
+}
+.wrapper{
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  background-color: #ffffff;
+}
+.cover_image{
+  width: 88.333%;
+  margin: 9.833% 5.833% 8.333% 5.833%;
+}
+.sidenav{
+  margin-left: 3.917%;
+  margin-right: 5.667%;
+  float:right;
+  right: 0;
+  width: 22.833%;
+  overflow: hidden;
+}
+.img_sidebar{
+  width: 100%;
+  margin-bottom: 12.774%;
+}
+.about_me{
+  font-family: PlayfairDisplay;
+  font-size: 24rem;
+  color: #626262;
+  margin-bottom: 8.03%;
+}
+.about{
+  font-family: PlayfairDisplay;
+  font-size: 12rem;
+  color: #626262;
+  margin-bottom: 8.03%;
+}
+.top_post{
+  font-family: Ubuntu;
+  font-size: 14rem;
+  color: #b4ad9e;
+  margin-bottom: 13.87%;
+}
+.top_post_menu{
+   list-style-type:disc;
+   list-style-position: inside;
+   font-size:16rem;
+}
+.top_post_menu li{
+  margin-bottom: 12.774%;
+}
+.top_post_menu a{
+  font-family: PlayfairDisplay;
+  font-size: 16rem;
+  color: #626262;
+  text-decoration: none;
+}
+.comment_count{
+  font-family: Ubuntu;
+  font-size: 12rem;
+  color: #b4ad9e;
+  margin-top: 5.474%;
+  margin-left: 10%;
+}
+.add_img{
+  margin-top: 7.664%;
+  width: 91.24%;
+}
+.post{
+  margin: 0% 32.5% 0% 12.5%;
+}
+.tag{
+  font-size: 14rem;
+  font-family: Ubuntu;
+  color: #b4ad9e;
+  margin: 0% 0% 3.333% 0%;
+}
+.title{
+  font-size: 30rem;
+  font-family: PlayfairDisplay;
+  color: #626262;
+  margin: 0% 0% 4.444% 0%;
+}
+.paragraph{
+  font-size: 14rem;
+  font-family: PlayfairDisplay;
+  color: #626262;
+  margin: 0% 0% 4.166% 0%;
+}
+.photo{
+  margin-bottom: 5%;
+  width: 100%;
+  height: 41.25vw;
+}
+.another_post{
+  width: 100%;
+  height: 36.25vw;
+  overflow: hidden;
+}
+.another{
+  display:inline-block;
+  width: 30.555%;
+  height: 20.333%;
+  text-decoration: none;
+}
+.another_photo{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3.333%
+}
+.another_title{
+  font-family: PlayfairDisplay;
+  font-size: 20rem;
+  color: #626262;
+}
+.comment{
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 5%;
+}
+.user{
+  overflow: hidden;
+  margin-top: 3.333%;
+  width: 100%;
+}
+.user_image{
+  width: 5.833vw;
+  height: 5.833vw;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3.889%;
+  font-family: Ubuntu;
+  font-size: 34rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 5.833vw;
+  vertical-align: top;
+  text-decoration: none;
+}
+.user_name{
+  font-family: PlayfairDisplay;
+  color: #626262;
+  font-size: 14rem;
+  text-decoration: none;
+}
+.user_comment{
+  font-family: PlayfairDisplay;
+  font-size: 14rem;
+  color: #626262;
+  margin-top: 2%;
+  margin-bottom: 3.333%;
+}
+.reply{
+  text-decoration: none;
+  font-family: Ubuntu;
+  font-size: 14rem;
+  color: #b4ad9e;
+  margin-left: 11.667%;
+}
+.input{
+  width: 87%;
+  height: 5.5vw;
+  padding: 0px auto;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  font-family: Ubuntu;
+  font-size: 14rem;
+  color: #c8c8c8;
+}
+.icon{
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 900px) {
+  .another_post{
+    height: auto;
+  }
+  .another{
+    text-align: center;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .user_image{
+    font-size: 4vw;
+  }
+  .icon{
+    width: 14rem;
+    height: 14rem;
+  }
+}
+@media (max-width: 500px) {
+  html{
+    font-size: 0.7pt;
+  }
+}
